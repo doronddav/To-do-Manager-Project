@@ -1,0 +1,73 @@
+html,
+body {
+  height: 100%;
+  /* width: 800px; */
+  width: 1200px;
+  background-color: #e7f0f6;
+}
+
+html {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1px;
+  border: 5px solid black;
+}
+
+body {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+header {
+  background-color: #37383d;
+  color: white;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  margin-top: -50px;
+}
+
+form {
+  height: 70px;
+  font-size: 25px;
+  margin-left: 44px;
+}
+form button {
+  border-radius: 10px;
+}
+form input {
+  border-radius: 10px;
+}
+
+.output {
+  margin-top: 40px;
+}
+li {
+  background-color: rgba(1, 1, 1, 0.1);
+  margin-top: 5px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+li span {
+  font-size: 20px;
+  align-self: center;
+  margin-left: 10px;
+}
+
+.doneBtn {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 25%;
+  right: 10px;
+}
+.DeleteBtn {
+  width: 60px;
+  height: 25px;
+  position: relative;
+  top: 15%;
+  right: 10px;
+}
